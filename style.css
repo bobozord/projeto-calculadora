@@ -24,7 +24,7 @@ input {
 }
 
 .text {
-    width: 160px;
+    width: 165px;
     height: 26px;
     border-radius: 20px;
     letter-spacing: 5px;
@@ -42,16 +42,21 @@ input {
 }
 
 .main {
+    position: absolute;
+    background-color: black;
+    border-radius: 5%;
+    border: thick double gray;
     display: inline-block;
     max-width: 100%;
+    
 }
 
 .maincolor {
     background-color: #000;
-    border: solid 1px #fff;
+    border: solid 1px #fff;    
 }
-
-.grey {
+ 
+.gray {
     background-color: darkgrey;
     border: solid 1px #fff;
 }
